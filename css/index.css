@@ -1,0 +1,285 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/zhuye/021f588b-4b8d-4840-9fbd-d01c7c3373dd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding-top: -10px;
+}
+
+.sye {
+    background-color: #800800;
+    height: 60px;
+    padding: 0 20px;
+    line-height: 60px;
+}
+
+header h1 {
+    font-family: 方正舒体;
+    color: #fff;
+    font-size: 45px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    margin-top: -80px;
+}
+
+.z {
+    float: right;
+    margin-right: 20px;
+    color: rgb(253, 198, 114);
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.zong {
+    background-color: #976f3e;
+    width: 1180px;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 10px;
+    height: auto;
+    margin-top: 80px;
+}
+
+.zy {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+main {
+    width: 1180px;
+    margin: 0 auto;
+    background-color: #976f3e;
+    border-radius: 0 0 12px 12px;
+    padding: 20px;
+    margin-top: -8px;
+}
+
+main h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.q {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tp {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.tp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    margin-left: 10px;
+}
+
+main .tp {
+    margin-right: 10px;
+}
+
+main .city p {
+    text-align: center;
+}
+
+main .city .zhuti {
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 方正舒体;
+}
+
+main .city {
+    margin-top: 20px;
+}
+
+main .qw {
+    color: #fff;
+    font-family: 宋体;
+}
+
+a:hover {
+    background-color: #b37a00;
+}
+
+main .wj {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main .wjtp {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+main .wjbt {
+    color: #333;
+    margin: 12px 0 8px;
+}
+
+main .jies {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+main .wjzt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+main .lj {
+    background-color: #b39673;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+main .lj:hover {
+    background-color: #9c7a5a;
+}
+
+footer {
+    background-color: #b30d00;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 2px solid #f39c12;
+}
+
+footer .banji {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .mzi {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+footer .mzi p {
+    color: #f0f0f0;
+    font-size: 20px;
+}
+
+footer .xxi p {
+    color: #aaa;
+    font-size: 12px;
+}
+/* 美食节与传承人容器 */
+.meishijie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* 美食节卡片 */
+.meishibufeng {
+    flex: 1;
+    min-width: 280px;
+    background: rgba(247, 243, 233);
+    border-radius: 20px;
+    padding: 25px;
+    backdrop-filter: blur(5px);
+}
+
+/* 传承人卡片 */
+.chuancheng-card {
+    flex: 1;
+    min-width: 280px;
+    background: rgb(247, 243, 233);
+    border-radius: 20px;
+    padding: 25px;
+    backdrop-filter: blur(5px);
+}
+
+/* 卡片标题 */
+.meishibufeng h3 {
+    color: #a87300;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.chuancheng-card h3 {
+    color: #976700;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* 卡片正文 */
+.meishibufeng p {
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.chuancheng-card p {
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* 高亮文字 */
+.w {
+   font-weight: 700;
+   fzont-size: 18px;
+  
+}
+
+/* 了解详情按钮 */
+.btn-liaojie {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #b39673;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 25px;
+    transition: 0.3s;
+}
+
+.btn-liaojie:hover {
+    background-color: #9c7a5a;
+    transform: scale(1.02);
+}
+
