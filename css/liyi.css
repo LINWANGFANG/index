@@ -1,0 +1,89 @@
+/* 餐桌礼仪卡片 */
+.kapian {
+    flex: 1;
+    min-width: 250px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.kapian-biaoti {
+    color: #facc15;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.kapian-wenzi {
+    color: rgb(240, 226, 197);
+    line-height: 1.8;
+}
+
+/* 节庆食俗卡片 */
+.jieqing-item {
+    flex: 1;
+    min-width: 200px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.jieqing-biaoti {
+    color: #facc15;
+    margin-bottom: 8px;
+}
+
+.jieqing-wenzi {
+    color: rgb(240, 226, 197);
+}
+
+/* 老字号卡片 */
+.laozihao-card {
+    flex: 1;
+    min-width: 250px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.laozihao-biaoti {
+    color: #facc15;
+    margin-bottom: 10px;
+}
+
+.laozihao-wenzi {
+    color: rgb(240, 226, 197);
+    line-height: 1.8;
+}
+
+/* 饮食禁忌卡片 */
+.jinji-item {
+    flex: 1;
+    min-width: 200px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.jinji-biaoti {
+    color: #facc15;
+    margin-bottom: 10px;
+}
+
+.jinji-wenzi {
+    color: rgb(240, 226, 197);
+    line-height: 1.8;
+}
+
+/* 备注说明区域 */
+.beizhu {
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.beizhu-wenzi {
+    color: rgb(240, 226, 197);
+    line-height: 1.8;
+}
