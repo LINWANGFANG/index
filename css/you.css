@@ -7,11 +7,10 @@
 .jiem {
     background-color: #f7edd5;
     border-radius: 12px;
-    width: 1280px;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-
+    width: 1180px;
+    max-width: 90%;
+    margin: 80px auto 50px auto;
+    padding: 20px;
 }
 
 body {
@@ -50,25 +49,6 @@ main video {
     margin: 0 auto;
     border-radius: 13px;
     margin-top: 10px;
-}
-
-body a {
-    color: #a5a5a5;
-    border-radius: 50px;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 8px 20px;
-    display: inline-block;
-    margin-top: 15px;
-    transition: 0.3s;
-    font-family: 微软雅黑;
-    background-color: #cdd8f7;
-    padding-right: 20px;
-}
-
-body a:hover {
-    background-color: #84c3ec;
-    color: #fff;
 }
 
 main {
@@ -207,4 +187,36 @@ w {
     width: 250px;
     height: auto;
     margin-right: 10px;
+}
+.sye {
+    background-color: #800800;
+    height: 60px;
+    padding: 0 20px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.sye h1 {
+    float: left;
+    font-family: 方正舒体;
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    line-height: 60px;
+}
+.z {
+    float: right;
+    margin-right: 20px;
+    color: rgb(253, 198, 114);
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.z:hover {
+    background-color: #b30d00;
 }

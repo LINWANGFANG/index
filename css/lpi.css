@@ -4,45 +4,79 @@
     box-sizing: border-box;
 }
 
-.jiem {
-    background-color: #f7edd5;
-    border-radius: 12px;
-    width: 1280px;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-
-}
-
 body {
     background-image: url(../images/lpi/da94da16-f841-4491-b214-55da2c94c958.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
-    padding-top: -10px;
+}
+
+.sye {
+    background-color: #800800;
+    height: 60px;
+    padding: 0 20px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.sye h1 {
+    float: left;
+    font-family: 方正舒体;
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    line-height: 60px;
+}
+
+.z {
+    float: right;
+    margin-right: 20px;
+    color: rgb(253, 198, 114);
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.z:hover {
+    background-color: #b30d00;
+}
+
+.jiem {
+    background-color: #f7edd5;
+    border-radius: 12px;
+    width: 1180px;
+    max-width: 90%;
+    margin: 80px auto 50px auto;
+    padding: 20px;
 }
 
 header {
     text-align: center;
-
+    margin-bottom: 20px;
 }
 
 header h1 {
-
     margin-bottom: 15px;
     color: #e7b62f;
     font-family: 方正舒体;
     font-size: 60px;
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 main h1 {
     text-align: center;
     font-family: 方正舒体;
-}
-
-main {
-    margin-top: 20px;
 }
 
 main video {
@@ -51,31 +85,6 @@ main video {
     border-radius: 13px;
     margin-top: 10px;
 }
-
-body a {
-    color: #a5a5a5;
-    border-radius: 50px;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 8px 20px;
-    display: inline-block;
-    margin-top: 15px;
-    transition: 0.3s;
-    font-family: 微软雅黑;
-    background-color: #cdd8f7;
-    padding-right: 20px;
-}
-
-body a:hover {
-    background-color: #84c3ec;
-    color: #fff;
-}
-
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 
 .video-box {
     text-align: center;
@@ -87,7 +96,6 @@ main {
     max-width: 800px;
     border-radius: 12px;
 }
-
 
 .gc {
     background-color: #fdfcf5;
@@ -107,7 +115,7 @@ main {
 
 .section {
     margin: 20px 0;
-    overflow: hidden;
+    overflow: hidden;  
 }
 
 .section h2 {
@@ -117,17 +125,6 @@ main {
     padding-left: 10px;
     border-left: 4px solid #f1c787;
 }
-
-
-.jpg1 {
-    float: right;
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-
 
 .gc ul,
 .gc ol {
@@ -139,7 +136,6 @@ main {
     margin: 8px 0;
     line-height: 1.6;
 }
-
 
 hr.fg {
     border: none;
@@ -157,6 +153,15 @@ hr.fg {
     width: 95%;
 }
 
+.jpg1 {
+    float: right;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
 .jpg2 {
     float: left;
     width: 250px;
@@ -164,7 +169,6 @@ hr.fg {
     border-radius: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
-    display: block;
 }
 
 .jpg3 {
@@ -172,6 +176,7 @@ hr.fg {
     width: 250px;
     height: auto;
     border-radius: 10px;
+    margin-left: 20px;
     margin-bottom: 10px;
 }
 
@@ -180,16 +185,9 @@ hr.fg {
     width: 250px;
     height: auto;
     border-radius: 10px;
+    margin-right: 20px;
     margin-bottom: 10px;
-    padding-right: 10px;
 }
-
-w {
-    width: 50px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .sc {
     font-size: 18px;
     font-weight: 700;
@@ -207,5 +205,11 @@ w {
     float: right;
     width: 250px;
     height: auto;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }

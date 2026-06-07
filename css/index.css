@@ -43,7 +43,6 @@
      text-decoration: none;
      line-height: 60px;
  }
-
  .zong {
      background-color: #976f3e;
      width: 1180px;
@@ -108,16 +107,19 @@
  main .city .zhuti {
      text-align: center;
      font-size: 40px;
-     color: rgb(255, 240, 206);
+     color: rgb(0, 0, 0);
      font-family: 方正舒体;
  }
 
  main .city {
      margin-top: 20px;
+     background-color: #f8e1c5;
+     border-radius: 15px;
+     padding: 20px;
  }
 
  main .qw {
-     color: #fff;
+     color: #ffffff;
      font-family: 宋体;
  }
 

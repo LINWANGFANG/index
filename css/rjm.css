@@ -3,80 +3,90 @@
     padding: 0;
     box-sizing: border-box;
 }
-.jiem{
+
+body {
+    background-image: url(../images/rjm/4d2e65f8-eb42-483a-b2a7-ee394d5c2022.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.sye {
+    background-color: #800800;
+    height: 60px;
+    padding: 0 20px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.sye h1 {
+    float: left;
+    font-family: 方正舒体;
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    line-height: 60px;
+}
+
+.z {
+    float: right;
+    margin-right: 20px;
+    color: rgb(253, 198, 114);
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.z:hover {
+    background-color: #b30d00;
+}
+
+.jiem {
     background-color: #fae4c8;
     border-radius: 12px;
-    width: 1280px;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    
+    width: 1180px;
+    margin: 80px auto 50px auto;
+    padding: 20px;
 }
-body{
-    background-image: url(../images/rjm/4d2e65f8-eb42-483a-b2a7-ee394d5c2022.png);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     min-height: 100vh;
-     padding-top: -10px; 
-}
-header{
-    text-align: center;
-    
-}
-header h1{
-    
-    margin-bottom: 15px;
-    color: #e7b62f; 
-    font-family: 方正舒体;
-    font-size: 60px;
-}
-main h1 {
-    text-align: center;
-    font-family: 方正舒体;
-}
-main {
-    margin-top: 20px;
-}
-main video{
-    display: block;
-     margin: 0 auto;
-     border-radius: 13px;
-     margin-top: 10px;
-}
-body a{
-    color: #a5a5a5;
-   border-radius: 50px;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 8px 20px;
-    display: inline-block;
-    margin-top: 15px;
-    transition: 0.3s;
-    font-family: 微软雅黑;
-    background-color: #cdd8f7;
-    padding-right: 20px;
-}
-body a:hover{
-    background-color: #84c3ec;
-    color: #fff;
-}
-
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 
 .video-box {
     text-align: center;
     margin-bottom: 30px;
 }
 
+.video-box h1 {
+    font-family: 方正舒体;
+    color: #b8791c;
+    margin-bottom: 15px;
+}
+
 .video-box video {
     width: 80%;
     max-width: 800px;
     border-radius: 12px;
+}
+
+hr.fg {
+    border: none;
+    height: 2px;
+    background-color: #f1c787;
+    margin: 30px auto;
+    width: 90%;
+}
+
+.inner-hr {
+    border: none;
+    height: 1px;
+    background-color: #f1c787;
+    margin: 25px auto;
+    width: 95%;
 }
 
 
@@ -94,11 +104,12 @@ main {
     color: #b8791c;
     margin-bottom: 30px;
     font-size: 28px;
+    font-family: 方正舒体;
 }
 
 .section {
     margin: 20px 0;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .section h2 {
@@ -119,6 +130,24 @@ main {
     margin-bottom: 10px;
 }
 
+.jpg2 {
+    float: left;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.jpg3 {
+    float: right;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
 
 .gc ul, .gc ol {
     padding-left: 30px;
@@ -130,46 +159,3 @@ main {
     line-height: 1.6;
 }
 
-
-hr.fg {
-    border: none;
-    height: 2px;
-    background-color: #f1c787;
-    margin: 30px auto;
-    width: 90%;
-}
-
-.inner-hr {
-    border: none;
-    height: 1px;
-    background-color: #f1c787;
-    margin: 25px auto;
-    width: 95%;
-}
-.jpg2 {
-    float: left;
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-}
-.jpg3 {
-    float: right;
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;}
-    .jpg4 {
-float: left;
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding-right: 10px;
-    }
-    w{
-        width: 50px;
-        margin: 0 auto;
-        text-align: center;
-    }
